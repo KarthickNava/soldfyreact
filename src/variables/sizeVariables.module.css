@@ -1,0 +1,29 @@
+:root {
+    --size2:0.125;/* equivalent to 2px */
+    --size5:0.313;/* equivalent to 5px */
+    --size10: 0.625rem;   /* equivalent to 10px */
+    --size11: 0.688rem;   /* equivalent to 11px */
+    --size12: 0.75rem;    /* equivalent to 12px */
+    --size13: 0.813rem;    /* equivalent to 13px */
+    --size14: 0.875rem;   /* equivalent to 14px */
+    --size16: 1rem;       /* equivalent to 16px */
+    --size18: 1.125rem;   /* equivalent to 18px */
+    --size20: 1.25rem;    /* equivalent to 20px */
+    --size22: 1.375rem;   /* equivalent to 22px */
+    --size24: 1.5rem;     /* equivalent to 24px */
+    --size26: 1.625rem;   /* equivalent to 26px */
+    --size28: 1.75rem;   /* equivalent to 28px */
+    --size30: 1.875rem;  /* equivalent to 30px */
+    --size32: 2rem;      /* equivalent to 32px */
+    --size34: 2.125rem;  /* equivalent to 34px */
+    --size36: 2.25rem;   /* equivalent to 36px */
+    --size38: 2.375rem;  /* equivalent to 38px */
+    --size40: 2.5rem;    /* equivalent to 40px */
+    --size42: 2.625rem;  /* equivalent to 42px */
+    --size44: 2.75rem;   /* equivalent to 44px */
+    --size46: 2.875rem;  /* equivalent to 46px */
+    --size48: 3rem;      /* equivalent to 48px */
+    --size50: 3.125rem;  /* equivalent to 50px */
+}
+   
+  

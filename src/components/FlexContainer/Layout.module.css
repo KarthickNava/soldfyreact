@@ -1,0 +1,336 @@
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .inflex {
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+  }
+  
+  .cover {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* .flex {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+  } */
+  
+  .wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .wrapReverse {
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .coldir {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .rowdir {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  
+  .rowReverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  
+  .colReverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  
+  .grow {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-height: 0;
+    min-width: 0;
+  }
+  
+  .shrinkOff {
+    flex-shrink: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+  }
+  
+  .shrinkOn {
+    flex-shrink: 1;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    min-width: 0;
+  }
+  
+  .basis {
+    flex-basis: 0%;
+    -webkit-flex-basis: 0%;
+    -moz-flex-basis: 0%;
+    -ms-flex-basis: 0%;
+  }
+  
+  .basisAuto {
+    flex-basis: auto;
+    -webkit-flex-basis: auto;
+    -moz-flex-basis: auto;
+    -ms-flex-basis: auto;
+  }
+  
+  .scrolly {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .scrollx {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .scrollnone {
+    overflow: hidden;
+  }
+  
+  .scrollboth {
+    overflow: auto;
+  }
+  
+  .preventScrollBubbleX {
+    overscroll-behavior-x: contain;
+  }
+  
+  .preventScrollBubbleY {
+    overscroll-behavior-y: contain;
+  }
+  
+  .preventScrollBubbleBoth {
+    overscroll-behavior: contain;
+  }
+  
+  /*Column Specification*/
+  
+  .col-1 {
+    -ms-flex-preferred-size: 8.33333333%;
+    flex-basis: 8.33333333%;
+    max-width: 8.33333333%;
+  }
+  
+  .col-2 {
+    -ms-flex-preferred-size: 16.66666667%;
+    flex-basis: 16.66666667%;
+    max-width: 16.66666667%;
+  }
+  
+  .col-3 {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  
+  .col-4 {
+    -ms-flex-preferred-size: 33.33333333%;
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+  }
+  
+  .col-5 {
+    -ms-flex-preferred-size: 41.66666667%;
+    flex-basis: 41.66666667%;
+    max-width: 41.66666667%;
+  }
+  
+  .col-6 {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  
+  .col-7 {
+    -ms-flex-preferred-size: 58.33333333%;
+    flex-basis: 58.33333333%;
+    max-width: 58.33333333%;
+  }
+  
+  .col-8 {
+    -ms-flex-preferred-size: 66.66666667%;
+    flex-basis: 66.66666667%;
+    max-width: 66.66666667%;
+  }
+  
+  .col-9 {
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+  
+  .col-10 {
+    -ms-flex-preferred-size: 83.33333333%;
+    flex-basis: 83.33333333%;
+    max-width: 83.33333333%;
+  }
+  
+  .col-11 {
+    -ms-flex-preferred-size: 91.66666667%;
+    flex-basis: 91.66666667%;
+    max-width: 91.66666667%;
+  }
+  
+  .col-12 {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  
+  .hCenter {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .vCenter {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .both {
+    composes: vCenter;
+    composes: hCenter;
+  }
+  
+  .top {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  
+  .bottom {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+  
+  .left {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  
+  .right {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  
+  .around {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  
+  .between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  .baseline {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+  
+  .alignStart {
+    align-content: flex-start;
+  }
+  
+  .alignEnd {
+    align-content: flex-end;
+  }
+  
+  .alignCenter {
+    align-content: center;
+  }
+  
+  .alignAround {
+    align-content: space-around;
+  }
+  
+  .alignBetween {
+    align-content: space-between;
+  }
+  
+  .first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  
+  .last {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  
+  .selfStart {
+    align-self: flex-start;
+  }
+  
+  .selfEnd {
+    align-self: flex-end;
+  }
+  
+  .selfCenter {
+    align-self: center;
+  }
+  
+  /*Hidden Responsive*/
+  @media only screen and (max-width: 30em) {
+    .hidden-screen-xs {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 30.063em) and (max-width: 48em) {
+    .hidden-screen-sm {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 48.063em) and (max-width: 61.25em) {
+    .hidden-screen-md {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 61.313em) and (max-width: 75em) {
+    .hidden-screen-lg {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 75.063em) {
+    .hidden-screen-xl {
+      display: none;
+    }
+  }

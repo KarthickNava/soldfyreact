@@ -1,0 +1,43 @@
+
+.Container{
+    background-color: var(--headerband-Bg);
+    height: var(--size40);
+}
+.leftBox, .rightBox{
+    list-style: none;
+}
+.wrapper
+{
+    width: 78%;
+    margin: 0 auto;
+}
+.link{
+    font-size: var(--size13);
+    line-height: var(--size30);
+    padding: 0 var(--size10);
+}
+.bandlastBox
+{
+    background-color: var(--commonBand-Bg);
+    padding: 0 var(--size10);
+}
+.personColor
+{
+    color: var(--text-yellow);
+    position: relative;
+}
+.personColor::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: var(--size10);
+    background: var(--white-pure);
+    width: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .3;
+}
+.busineesColor
+{
+    color: var(--white-pure);
+}

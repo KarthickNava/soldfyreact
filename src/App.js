@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import {Container, Box} from './components/FlexContainer';
 import './App.css';
+// eslint-disable-line camelcase
+import ColorVariable from './variables/colorVariables.module.css';
+import SizeVariable from './variables/sizeVariables.module.css';
+import HeaderBand from './components/HeaderBand/HeaderBand';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+       <Container alignBox='column' tagName='main'>
+        <Box shrink>
+          <Container alignBox='column'>
+            <Box>
+              <HeaderBand/>
+            </Box>
+          </Container>
+        </Box> 
+        <Box flexible overflow-y='scroll'>Section</Box>
+       </Container>
+
     </div>
   );
 }
