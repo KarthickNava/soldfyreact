@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/soldfyreact/static/css/main.5bd066e2.css",
+    "main.js": "/soldfyreact/static/js/main.78388d32.js",
+    "static/js/787.28cb0dcd.chunk.js": "/soldfyreact/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/soldfyreact/index.html",
+    "main.5bd066e2.css.map": "/soldfyreact/static/css/main.5bd066e2.css.map",
+    "main.78388d32.js.map": "/soldfyreact/static/js/main.78388d32.js.map",
+    "787.28cb0dcd.chunk.js.map": "/soldfyreact/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bd066e2.css",
+    "static/js/main.78388d32.js"
+  ]
+}
