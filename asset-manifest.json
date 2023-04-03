@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/soldfyreact/static/css/main.5bd066e2.css",
-    "main.js": "/soldfyreact/static/js/main.78388d32.js",
+    "main.css": "/soldfyreact/static/css/main.5ca851f0.css",
+    "main.js": "/soldfyreact/static/js/main.6bfa8089.js",
     "static/js/787.28cb0dcd.chunk.js": "/soldfyreact/static/js/787.28cb0dcd.chunk.js",
+    "static/media/search-icon.svg": "/soldfyreact/static/media/search-icon.5ecc31ee76389aeebdf8b0ea450caa27.svg",
     "index.html": "/soldfyreact/index.html",
-    "main.5bd066e2.css.map": "/soldfyreact/static/css/main.5bd066e2.css.map",
-    "main.78388d32.js.map": "/soldfyreact/static/js/main.78388d32.js.map",
+    "main.5ca851f0.css.map": "/soldfyreact/static/css/main.5ca851f0.css.map",
+    "main.6bfa8089.js.map": "/soldfyreact/static/js/main.6bfa8089.js.map",
     "787.28cb0dcd.chunk.js.map": "/soldfyreact/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bd066e2.css",
-    "static/js/main.78388d32.js"
+    "static/css/main.5ca851f0.css",
+    "static/js/main.6bfa8089.js"
   ]
 }
