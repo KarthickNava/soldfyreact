@@ -1,0 +1,8 @@
+.input {
+    background: var(--white-pure);
+    border: 1px solid #D2D2D2;
+    padding:0 var(--size50) 0 var(--size24);
+    height: var(--size54);
+    border-radius: 8px;
+    font-size: var(--size20);
+  }

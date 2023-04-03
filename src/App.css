@@ -14,3 +14,20 @@ body *{
   padding: 0;
   box-sizing: border-box;
 }
+.footer
+{
+  background-color: var(--commonBand-Bg);
+}
+.footerWrapper
+{
+  width: 78%;
+  margin: 0 auto;
+  padding-top: 107px;
+}
+ul *{
+  margin: 0;
+  padding: 0;
+}
+ul li *{
+  list-style: none;
+}

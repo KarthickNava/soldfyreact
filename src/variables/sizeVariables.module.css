@@ -6,12 +6,15 @@
     --size12: 0.75rem;    /* equivalent to 12px */
     --size13: 0.813rem;    /* equivalent to 13px */
     --size14: 0.875rem;   /* equivalent to 14px */
+    --size15: 0.938rem;   /* equivalent to 15px */
     --size16: 1rem;       /* equivalent to 16px */
     --size18: 1.125rem;   /* equivalent to 18px */
     --size20: 1.25rem;    /* equivalent to 20px */
     --size22: 1.375rem;   /* equivalent to 22px */
     --size24: 1.5rem;     /* equivalent to 24px */
+    --size25: 1.563rem;     /* equivalent to 25px */
     --size26: 1.625rem;   /* equivalent to 26px */
+    --size27: 1.688rem;   /* equivalent to 27px */
     --size28: 1.75rem;   /* equivalent to 28px */
     --size30: 1.875rem;  /* equivalent to 30px */
     --size32: 2rem;      /* equivalent to 32px */
@@ -24,6 +27,9 @@
     --size46: 2.875rem;  /* equivalent to 46px */
     --size48: 3rem;      /* equivalent to 48px */
     --size50: 3.125rem;  /* equivalent to 50px */
+    --size54: 3.375rem;  /* equivalent to 50px */
+    --size60: 3.75rem;  /* equivalent to 80px */
+    --size80: 5rem;  /* equivalent to 80px */
 }
    
   

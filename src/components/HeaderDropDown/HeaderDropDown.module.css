@@ -2,6 +2,7 @@
 .dropdownContainer {
     position: relative;
     display: inline-block;
+    width: 180px;
   }
   
   /* Dropdown button */
@@ -17,6 +18,7 @@
     transition: all 0.3s ease;
     background: none;
     border: 0;
+    outline: 0;
 
   }
   .active{
