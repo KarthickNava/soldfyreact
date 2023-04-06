@@ -8,6 +8,10 @@ import HeaderBand from "./components/HeaderBand/HeaderBand";
 import Header from "./components/Header/Header";
 import Footer from "./pages/Footer/Footer";
 import BackToTopButton from "./hooks/BackToTopButton";
+import Slider from "./components/Slider/Slider";
+import ProductSliderPreview from "./pages/ProductSliderPreview/ProductSliderPreview";
+import CategorySlider from "./components/CategorySlider/CategorySlider";
+import ProductSliderPage from "./pages/ProductSliderPage/ProductSliderPage";
 function App() {
   const contentRef = useRef(null);
   return (
@@ -21,9 +25,21 @@ function App() {
             <Header />
           </Container>
         </Box>
-        <Box flexible scroll="vertical" eleRef={contentRef}>
+        <Box flexible scroll="vertical" eleRef={contentRef} className='commonContainer'>
           <Container alignBox="column">
-            <Box flexible style={{padding:'300px'}}>Slider implementation on process</Box>
+            <Box>
+              <Container alignBox="column" className="middleWrapper">
+                <Box>
+                  <ProductSliderPreview/>
+                </Box>
+                <Box className='categoryWrapper'>
+                  <CategorySlider/>
+                </Box>
+                <Box className='slidrWrapper'>
+<ProductSliderPage/>
+                </Box>
+              </Container>
+            </Box>
             <Box className="footer">
               <Container
                 alignBox="column"
@@ -39,7 +55,7 @@ function App() {
           </Container>
         </Box>
       </Container>
-      <BackToTopButton contentRef={contentRef}/>
+      <BackToTopButton contentRef={contentRef} />
     </div>
   );
 }

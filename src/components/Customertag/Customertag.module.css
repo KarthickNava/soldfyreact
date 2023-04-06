@@ -1,0 +1,14 @@
+.Contaniner
+{
+    border: 1px solid #a9a9a9;
+    padding: 30px 15px;
+    border-radius: 15px;
+}
+
+.img
+{
+    height: 95px;
+    width: 185px;
+    max-width: 100%;
+    overflow: hidden;
+}

@@ -58,24 +58,28 @@ const Container = styled.div`
   margin:0 50px
 `;
 
-const List = styled.div`
-  position: absolute;
-  top: 110%;
-  left: 0;
-  right: 0;
-  height: 40vh;
-  background-color: #fff;
-  border-radius:4px;
-  border:1px solid #dfdfdf
-  overflow-y: scroll;
+const StyleList = styled.div`
+position: absolute;
+    top: 110%;
+    left: 0px;
+    right: 0px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 1px solid;
+    padding: 40px 20px;
+    box-sizing: border-box;
 `;
 
 const Item = styled.div`
   border-left: 3px solid ${({ active }) => (active ? "blue" : "initial")};
   background-color: ${({ active }) => (active ? "gray" : "initial")};
-  padding: 0 15px;
+  padding:5px;
   color: ${({ active }) => (active ? "white" : "#000")};
   cursor: pointer;
+  display:flex;
   &:hover {
     background-color: gray;
   }
@@ -98,12 +102,33 @@ const Input = styled.input`
 `;
 
 const Match = styled.strong`
-  color: #c9ada7;
+  color: #000304;
 `;
 
 const Form = styled.form`
 
 `;
+const List = styled.div`
+  position: absolute;
+  top: 110%;
+  left: 0px;
+  right: 0px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 1px solid;
+  padding: 40px 20px;
+  box-sizing: border-box;
+
+  /* Add your custom CSS styles here */
+  color: #333;
+  font-size: 16px;
+  z-index:3
+`;
+
+
 
 const SubmitButton = styled.button`
   outline: none;

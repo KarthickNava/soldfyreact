@@ -20,9 +20,12 @@ body *{
 }
 .footerWrapper
 {
-  width: 78%;
-  margin: 0 auto;
   padding-top: 107px;
+}
+.middleWrapper, .footerWrapper
+{
+  width: 90rem;
+  margin: 0 auto;
 }
 ul *{
   margin: 0;
@@ -30,4 +33,16 @@ ul *{
 }
 ul li *{
   list-style: none;
+}
+.categoryWrapper
+{
+  margin: 71px 0;
+}
+.slidrWrapper
+{
+  margin-bottom: 70px;
+}
+.commonContainer
+{
+  background-color: #f3f5f6;
 }

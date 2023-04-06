@@ -1,0 +1,41 @@
+.button
+{
+    background-color: var(--commonBand-Bg);
+    color: var(--white-pure);
+    display: flex;
+    align-items: center;
+    font-size: var(--size20);
+    font-weight: 400;
+}
+.icon
+{
+    fill: var(--white-pure);
+}
+.svg
+{
+    padding-left: 10px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var( --text-yellow);
+    color:#000;
+}
+.button:hover .icon,
+.button:focus .icon {
+    fill:#000;
+}
+.head{
+    font-size: 34px;
+    font-weight: 600;
+    margin-right: 35px;
+}
+.headBox
+{
+    margin-bottom: 25px;
+}
+
+.space
+{
+    padding-right: 25px;
+}

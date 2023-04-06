@@ -16,6 +16,7 @@ const Button = React.forwardRef((props, ref) => {
     title,
     customClass,
     customProps,
+    needBlackHover
   } = props;
 
   const buttonProps = {

@@ -1,0 +1,27 @@
+.firstBox
+{
+    width:58.33333333%;
+}
+.secondBox
+{
+width: 41.66666667%;
+padding-left: 15px;
+}
+.Container
+{
+    margin-top: 3rem;
+}
+.iconWrapper{
+    height: 15.1rem;
+    width: 15.938rem;
+    overflow: hidden;
+}
+.imageWrapper .iconWrapper:nth-child(1),
+.imageWrapper .iconWrapper:nth-child(3)
+{
+    margin-right: 35px;
+}
+.imageWrapper .iconWrapper:nth-child(1)
+{
+    margin-bottom: 25px;
+}

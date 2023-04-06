@@ -226,3 +226,12 @@ const Countries = [
   
   export default Countries;
   
+
+
+// const product = [
+//   { id: 1, text: 'Lightning till USB-Kabel till iPhone och ', code: 'APAC001', src: '	https://cdn.soldfy.se/media/catalog/product/cache/…/u/s/usb-cable-with-lightning-connector-1m-2.jpeg' },
+//   { id: 2, text: 'Mini 4 Batteri Original', code: 'IPSP-1168', src: "	https://cdn.soldfy.se/media/catalog/product/cache/…tery_with_original_protect_board_ipsp-1168_2.jpeg" },
+//   { id: 3, text: 'USB Kabel med Lightning iPhone ', code: 'SP944-169', src: "	https://cdn.soldfy.se/media/catalog/product/cache/…e-with-lightning-connector_-iphone-6-7-8x-1m.jpeg" },
+//   { id: 4, text: 'Lightning till USB Kabel till iPhone och ', code: 'APAC002', src: "	https://cdn.soldfy.se/media/catalog/product/cache/…42b/u/s/usb-cable-with-lightning-connector-2m.jpg" },
+//   {id:5, text:'Smart Skärmskydd för ipad Pro 10,5-tum - Sand Rosa', code:'APA156', src:"	https://cdn.soldfy.se/media/catalog/product/cache/…10.5_smart_cover_mu7r2zma_pink_sand_apa156-1.jpeg"},
+// ]

@@ -1,0 +1,27 @@
+.slickSlide {
+    text-align: center;
+    margin: 0 10px 0 7px;
+  }
+
+  .customDotsClass {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .customdot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .customdot:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  

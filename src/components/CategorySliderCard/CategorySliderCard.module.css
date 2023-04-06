@@ -1,0 +1,16 @@
+.img{
+    height: 54px;
+    width: 54px;
+}
+.container
+{
+    max-width: 180px;
+}
+.text{
+    font-size: var(--size16);
+    font-weight: 600;
+    color: #333;
+    word-wrap: break-word;
+    margin: var(--size30);
+    text-align: center;
+}
