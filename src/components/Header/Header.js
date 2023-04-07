@@ -10,43 +10,10 @@ import headerValue from "../../JsonData/headerValue.json";
 
 const Header = (props) => {
   const iconData = [
-    { id: 1, src: "https://soldfy.se/newheart-srR.svg" },
-    { id: 2, src: "https://soldfy.se/shuffle-55s.svg" },
-    { id: 3, src: "https://soldfy.se/newuser-9j4.svg" },
-    { id: 4, src: "https://soldfy.se/newcart-gTP.svg" },
-  ];
-
-  const menuData = [
-    {
-      id: 1,
-      text: "Spare Parts",
-      src: "https://cdn.soldfy.se/media/catalog/category/_20x20_Reservdelar_White_icon.svg",
-    },
-    {
-      id: 2,
-      text: "Accessories",
-      src: "https://cdn.soldfy.se/media/catalog/category/accessories_main_category_1.svg",
-    },
-    {
-      id: 3,
-      text: "Phone and  Tablets",
-      src: "https://cdn.soldfy.se/media/catalog/category/Phone_and_Tablet_1_1.svg",
-    },
-    {
-      id: 4,
-      text: "Computers",
-      src: "https://cdn.soldfy.se/media/catalog/category/computer_1_main_category_3.svg",
-    },
-    {
-      id: 3,
-      text: "gaming",
-      src: "https://cdn.soldfy.se/media/catalog/category/Gaming_2.svg",
-    },
-    {
-      id: 4,
-      text: "Home and leisure",
-      src: "https://cdn.soldfy.se/media/catalog/category/Home_electronics_1.svg",
-    },
+    { id: 14, src: "https://soldfy.se/newheart-srR.svg" },
+    { id: 24, src: "https://soldfy.se/shuffle-55s.svg" },
+    { id: 34, src: "https://soldfy.se/newuser-9j4.svg" },
+    { id: 44, src: "https://soldfy.se/newcart-gTP.svg" },
   ];
 
   const iconMap = (item) => ({

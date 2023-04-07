@@ -8,53 +8,53 @@ import Image from "../../common/Image/Image";
 import style from "./Footer.module.css";
 const Footer = () => {
   const brandData = [
-    { id: 1, text: "Apple Hörlurar" },
-    { id: 2, text: "Laddare och Kablar" },
-    { id: 3, text: "Powerbank" },
-    { id: 4, text: "In-Ear Hörlurar" },
-    { id: 1, text: "Sony PlayStation" },
-    { id: 2, text: "Smartklocka" },
-    { id: 3, text: "Högtalare" },
-    { id: 4, text: "Fjärrkontroll" },
-    { id: 4, text: "Smart Röstassistent" },
+    { id: 11, text: "Apple Hörlurar" },
+    { id: 21, text: "Laddare och Kablar" },
+    { id: 31, text: "Powerbank" },
+    { id: 41, text: "In-Ear Hörlurar" },
+    { id: 13, text: "Sony PlayStation" },
+    { id: 25, text: "Smartklocka" },
+    { id: 39, text: "Högtalare" },
+    { id: 40, text: "Fjärrkontroll" },
+    { id: 45, text: "Smart Röstassistent" },
   ];
   const solfyData = [
-    { id: 1, text: "Apple Hörlurar" },
-    { id: 2, text: "Laddare och Kablar" },
-    { id: 3, text: "Powerbank" },
-    { id: 4, text: "In-Ear Hörlurar" },
+    { id: 111, text: "Apple Hörlurar" },
+    { id: 24, text: "Laddare och Kablar" },
+    { id: 39, text: "Powerbank" },
+    { id: 48, text: "In-Ear Hörlurar" },
   ];
   const httpData = [
-    { id: 1, text: "Apple Hörlurar" },
-    { id: 2, text: "Laddare och Kablar" },
-    { id: 3, text: "Powerbank" },
-    { id: 4, text: "In-Ear Hörlurar" },
-    { id: 1, text: "Sony PlayStation" },
-    { id: 2, text: "Smartklocka" },
+    { id: 100, text: "Apple Hörlurar" },
+    { id: 27, text: "Laddare och Kablar" },
+    { id: 37, text: "Powerbank" },
+    { id: 47, text: "In-Ear Hörlurar" },
+    { id: 17, text: "Sony PlayStation" },
+    { id: 12, text: "Smartklocka" },
   ];
   const iconData = [
     {
-      id: 1,
+      id: 19,
       src: "https://cdn.soldfy.se/media/wysiwyg/facebook.svg",
       link: "https://www.facebook.com/soldfy.se",
     },
     {
-      id: 2,
+      id: 82,
       src: "https://cdn.soldfy.se/media/wysiwyg/instagram.svg",
       link: "https://www.instagram.com/soldfy.se/",
     },
     {
-      id: 3,
+      id: 39,
       src: "https://cdn.soldfy.se/media/logo/twitter_icon_25x26_.svg",
       link: "https://twitter.com/Soldfy1",
     },
     {
-      id: 4,
+      id: 49,
       src: "https://cdn.soldfy.se/media/logo/Linkedin_icon_25x26_.svg",
       link: "https://www.linkedin.com/company/soldfy-se/",
     },
     {
-      id: 5,
+      id: 59,
       src: "https://cdn.soldfy.se/media/wysiwyg/youtube.svg",
       link: "https://www.youtube.com/channel/UCNQ1MhW328VQmHRsVzzjMmg",
     },
