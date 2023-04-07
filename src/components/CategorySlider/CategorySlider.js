@@ -14,7 +14,7 @@ function NextArrow(props) {
       style={{
         ...style,
         display: "block",
-        background: "URL('https://soldfy.com/rightarrow-ffv.svg') no-repeat",
+        background: "URL('https://soldfy.com/leftarrow-dKE.svg') no-repeat",
         height:'70px',
         width:'70px',
         backgroundSize: "cover",
@@ -35,7 +35,7 @@ function PrevArrow(props) {
       style={{
         ...style,
         display: "block",
-        background: "URL('https://soldfy.com/leftarrow-dKE.svg') no-repeat",
+        background: "URL('https://soldfy.com/rightarrow-ffv.svg') no-repeat",
         height:'70px',
         width:'70px',
         backgroundSize: "cover",
