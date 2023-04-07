@@ -25,8 +25,8 @@ const CategorySlider = () => {
   useEffect(() => {
     fetch(
       `${
-        window.location.origin +
-        "/graphql?query=query+getCategory%7BcategorySlider%7Bname+slider_image+url_key+url_path+__typename%7D%7D&operationName=getCategory&variables=%7B%7D"
+        // window.location.origin +
+        "https://test-react.soldfy.se/graphql?query=query+getCategory%7BcategorySlider%7Bname+slider_image+url_key+url_path+__typename%7D%7D&operationName=getCategory&variables=%7B%7D"
       }`,
       {
         method: "GET",

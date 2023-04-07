@@ -19,14 +19,14 @@ const HeaderBand = (props) => {
               <Box>
                 <HeaderDropDown />
               </Box>
-              <Box>
+              {/* <Box>
                 <Link className={style.link}>download new the app</Link>
-              </Box>
+              </Box> */}
             </Container>
           </Box>
           <Box className={style.rightBox}>
             <Container alignBox="row">
-              <Box>
+              {/* <Box>
                 <Container align="vertical" alignBox="row">
                   <Box>
                     <Link className={style.link}>Customer Service</Link>
@@ -35,17 +35,17 @@ const HeaderBand = (props) => {
                     <Link className={style.link}>Track your order</Link>
                   </Box>
                 </Container>
-              </Box>
+              </Box> */}
               <Box className={style.bandlastBox}>
                 <Container align="vertical" alignBox="row">
                   <Box>
                     <Link className={`${style.link} ${style.personColor}`}>
-                      Private Person
+                      Privatperson
                     </Link>
                   </Box>
                   <Box>
                     <Link className={`${style.link} ${style.busineesColor}`}>
-                      Business
+                      Företag
                     </Link>
                   </Box>
                 </Container>

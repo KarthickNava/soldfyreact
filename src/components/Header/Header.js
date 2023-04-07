@@ -4,8 +4,9 @@ import { PropTypes } from "prop-types";
 import commonStyle from "../../common/common.module.css";
 import Image from "../../common/Image/Image";
 import useObjectMap from "../../hooks/useObjectMap";
-import AutoComplete from '../../components/AutoComplete'
+import AutoComplete from "../../components/AutoComplete";
 import style from "./Header.module.css";
+import headerValue from "../../JsonData/headerValue.json";
 
 const Header = (props) => {
   const iconData = [
@@ -60,7 +61,7 @@ const Header = (props) => {
   });
 
   const mappedData = useObjectMap(iconData, iconMap);
-  const menuMapData = useObjectMap(menuData, menuMap);
+  const menuMapData = useObjectMap(headerValue?.categoryList, menuMap);
 
   const displayIcon = mappedData.map((item) => (
     <Box key={item.id} className={style.iconWrapper}>
@@ -72,18 +73,29 @@ const Header = (props) => {
     </Box>
   ));
 
-  const displayMenu = menuMapData.map((item) => (
-    <Box key={item.id} className={style.menuWrapper} tagName="a" href="#">
-      <Container align="vertical" alignBox="row">
-        <Image
-          className={style.menuImg}
-          src={item.displaySrc}
-          alt="soldfyicons"
-        />
-        <span>{item.displayText}</span>
-      </Container>
-    </Box>
-  ));
+  const displayMenu = menuMapData?.map((item) => {
+    return item?.children?.map((childItem) => {
+      return childItem?.is_visible_in_header == 1 ? (
+        <Box
+          key={childItem?.id}
+          className={style.menuWrapper}
+          tagName="a"
+          href="#"
+        >
+          <Container align="vertical" alignBox="row">
+            <Image
+              className={style.menuImg}
+              src={`${"https://cdn.soldfy.se" + childItem?.icon_image}`}
+              alt="soldfyicons"
+            />
+            <span>{childItem?.name}</span>
+          </Container>
+        </Box>
+      ) : (
+        ""
+      );
+    });
+  });
 
   return (
     <Container alignBox="column" className={style.Container} tagName="header">
@@ -102,7 +114,7 @@ const Header = (props) => {
             />
           </Box>
           <Box flexible>
-            <AutoComplete/>
+            <AutoComplete />
           </Box>
 
           <Box shrink>
@@ -123,10 +135,16 @@ const Header = (props) => {
           className={` ${commonStyle.wrapper}`}
         >
           <Box className={style.headerLeft}>
-            <Container align='vertical' alignBox='row' >
+            <Container align="vertical" alignBox="row">
               <Box>
-                <Container alignBox='row' align='vertical' className={style.moreIocnWrapper}>
-                  <span className={style.moreIconImg}><Image src='https://soldfy.se/bars-e2X.svg' alt='Menu'/></span>
+                <Container
+                  alignBox="row"
+                  align="vertical"
+                  className={style.moreIocnWrapper}
+                >
+                  <span className={style.moreIconImg}>
+                    <Image src="https://soldfy.se/bars-e2X.svg" alt="Menu" />
+                  </span>
                   <span className={style.moretext}>Alla Produkter</span>
                 </Container>
               </Box>

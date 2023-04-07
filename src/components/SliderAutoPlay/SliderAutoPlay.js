@@ -1,11 +1,12 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import style from './SliderAutoPlay.module.css';
+import React, { useState, useEffect } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import style from "./SliderAutoPlay.module.css";
+import BannerImage from "../../JsonData/BannerImage.json";
 
 const SliderAutoPlay = () => {
-
+  const [sliderImage, setSliderImage] = useState([]);
   const settings = {
     dots: false,
     infinite: true,
@@ -29,20 +30,49 @@ const SliderAutoPlay = () => {
     // },
   };
 
-  const items = [
-    <div key={1}>
-      <img  src="https://cdn.soldfy.se/media/restoreit/homebanner/8/4/840x510_home_page_banner.jpg" alt="Poskrea Homapage Soldfy.se" fetchpriority="high" width="850" height="510"/>
-    </div>,
-    <div key={2}>
-      <img  src="https://cdn.soldfy.se/media/restoreit/homebanner/8/4/840x510_home_page_banner.jpg" alt="Poskrea Homapage Soldfy.se" fetchpriority="high" width="850" height="510"/>
-    </div>,
-  ];
+  useEffect(() => {
+    setSliderImage(
+      BannerImage?.banners?.filter((item) => item?.bannertype === "slider")
+    );
+  }, []);
+
+  const items = sliderImage?.map((item) => {
+    return (
+      <div key={item?.homebanner_id}>
+        <img
+          src={`${"https://cdn.soldfy.se/media/" + item?.image}`}
+          alt={item?.title}
+          fetchpriority="high"
+          width="850"
+          height="510"
+        />
+      </div>
+    );
+  });
+  // const items = [
+  //   <div key={1}>
+  //     <img
+  //       src="https://cdn.soldfy.se/media/restoreit/homebanner/8/4/840x510_home_page_banner.jpg"
+  //       alt="Poskrea Homapage Soldfy.se"
+  //       fetchpriority="high"
+  //       width="850"
+  //       height="510"
+  //     />
+  //   </div>,
+  //   <div key={2}>
+  //     <img
+  //       src="https://cdn.soldfy.se/media/restoreit/homebanner/8/4/840x510_home_page_banner.jpg"
+  //       alt="Poskrea Homapage Soldfy.se"
+  //       fetchpriority="high"
+  //       width="850"
+  //       height="510"
+  //     />
+  //   </div>,
+  // ];
 
   return (
     <div className={style.slickSlide}>
-      <Slider {...settings}>
-        {items}
-      </Slider>
+      <Slider {...settings}>{items}</Slider>
     </div>
   );
 };

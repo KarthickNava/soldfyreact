@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 const useDropdown = (options) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
@@ -11,10 +11,10 @@ const useDropdown = (options) => {
       }
     };
 
-    document.addEventListener('mousedown', handleOutsideClick);
+    document.addEventListener("mousedown", handleOutsideClick);
 
     return () => {
-      document.removeEventListener('mousedown', handleOutsideClick);
+      document.removeEventListener("mousedown", handleOutsideClick);
     };
   }, []);
 
@@ -24,28 +24,30 @@ const useDropdown = (options) => {
   };
 
   const handleKeyDown = (event) => {
-    if (event.key === 'ArrowDown') {
+    if (event.key === "ArrowDown") {
       event.preventDefault();
-      const nextOptionIndex = options.findIndex((option) => option.id === selectedOption.id) + 1;
+      const nextOptionIndex =
+        options.findIndex((option) => option.id === selectedOption.id) + 1;
       if (nextOptionIndex < options.length) {
         setSelectedOption(options[nextOptionIndex]);
       }
     }
 
-    if (event.key === 'ArrowUp') {
+    if (event.key === "ArrowUp") {
       event.preventDefault();
-      const prevOptionIndex = options.findIndex((option) => option.id === selectedOption.id) - 1;
+      const prevOptionIndex =
+        options.findIndex((option) => option.id === selectedOption.id) - 1;
       if (prevOptionIndex >= 0) {
         setSelectedOption(options[prevOptionIndex]);
       }
     }
 
-    if (event.key === 'Enter' || event.key === ' ') {
+    if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
       setIsOpen(false);
     }
 
-    if (event.key === 'Escape') {
+    if (event.key === "Escape") {
       event.preventDefault();
       setIsOpen(false);
     }
@@ -53,7 +55,7 @@ const useDropdown = (options) => {
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
-  }
+  };
 
   return {
     isOpen,
@@ -62,8 +64,8 @@ const useDropdown = (options) => {
     handleOptionSelect,
     handleKeyDown,
     toggleDropdown,
+    setSelectedOption,
   };
 };
 
-
-export default useDropdown
+export default useDropdown;

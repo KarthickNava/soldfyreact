@@ -10,7 +10,7 @@ const SearchForm = () => {
     suggestions,
     select,
     currentFocus,
-    handleKeyDown
+    handleKeyDown,
   } = useAutocomplete();
   const hasSuggestions = !(Array.isArray(suggestions) && !suggestions.length);
 
@@ -25,6 +25,7 @@ const SearchForm = () => {
           <Input
             onKeyDown={handleKeyDown}
             value={value}
+            placeholder="Sök bland 20 000+ produkter ..."
             onChange={(e) => handleValueChange(e.target.value, countries)}
           />
 
@@ -55,31 +56,31 @@ const Container = styled.div`
   position: relative;
   display: flex;
   flex-direction: row;
-  margin:0 50px
+  margin: 0 50px;
 `;
 
 const StyleList = styled.div`
-position: absolute;
-    top: 110%;
-    left: 0px;
-    right: 0px;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    border: 1px solid;
-    padding: 40px 20px;
-    box-sizing: border-box;
+  position: absolute;
+  top: 110%;
+  left: 0px;
+  right: 0px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 1px solid;
+  padding: 40px 20px;
+  box-sizing: border-box;
 `;
 
 const Item = styled.div`
   border-left: 3px solid ${({ active }) => (active ? "blue" : "initial")};
   background-color: ${({ active }) => (active ? "gray" : "initial")};
-  padding:5px;
+  padding: 5px;
   color: ${({ active }) => (active ? "white" : "#000")};
   cursor: pointer;
-  display:flex;
+  display: flex;
   &:hover {
     background-color: gray;
   }
@@ -88,7 +89,7 @@ const Item = styled.div`
 const Input = styled.input`
   background-color: #efefef;
   color: #000;
-  font-size:18px;
+  font-size: 18px;
   border: none;
   padding: 15px 15px;
   width: 100%;
@@ -105,9 +106,7 @@ const Match = styled.strong`
   color: #000304;
 `;
 
-const Form = styled.form`
-
-`;
+const Form = styled.form``;
 const List = styled.div`
   position: absolute;
   top: 110%;
@@ -125,10 +124,8 @@ const List = styled.div`
   /* Add your custom CSS styles here */
   color: #333;
   font-size: 16px;
-  z-index:3
+  z-index: 3;
 `;
-
-
 
 const SubmitButton = styled.button`
   outline: none;

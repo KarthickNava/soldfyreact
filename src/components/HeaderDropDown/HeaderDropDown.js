@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import useDropdown from "../../hooks/useDropdown";
 import style from "./HeaderDropDown.module.css";
 const HeaderDropDown = (props) => {
   const options = [
+    {
+      id: 5,
+      label: "Svenska - SEK",
+      src: "https://cdn.soldfy.se/media/websites/15/sweden-flag_1.svg",
+    },
     {
       id: 1,
       label: "English - EUR",
@@ -24,11 +29,6 @@ const HeaderDropDown = (props) => {
       label: "Norsk - NOK",
       src: "https://cdn.soldfy.se/media/websites/27/norway-flag_1.svg",
     },
-    {
-      id: 5,
-      label: "Svenska - SEK",
-      src: "https://cdn.soldfy.se/media/websites/15/sweden-flag_1.svg",
-    },
   ];
   const {
     isOpen,
@@ -37,8 +37,14 @@ const HeaderDropDown = (props) => {
     handleOptionSelect,
     handleKeyDown,
     toggleDropdown,
+    setSelectedOption,
   } = useDropdown(options);
   const { needButtonheighlight } = props;
+
+  useEffect(() => {
+    let defaultSelect = options?.[0];
+    setSelectedOption(defaultSelect);
+  }, []);
   return (
     <div
       className={`${style.dropdownContainer} ${
@@ -50,8 +56,19 @@ const HeaderDropDown = (props) => {
         onClick={toggleDropdown}
         onKeyDown={handleKeyDown}
       >
-        {selectedOption ? selectedOption.label : "Select an option"}
-        <span className={style.dropdownIcon}>{isOpen ? "▲" : "▼"}</span>
+        {selectedOption ? (
+          <>
+            <img
+              src={selectedOption.src}
+              className={style.langImage}
+              alt={selectedOption.label}
+            />
+            {selectedOption.label}
+            <span className={style.dropdownIcon}>{isOpen ? "▲" : "▼"}</span>
+          </>
+        ) : (
+          ""
+        )}
       </button>
       {isOpen && (
         <ul className={style.dropdownOptions} ref={optionsRef}>
@@ -67,7 +84,6 @@ const HeaderDropDown = (props) => {
                 onClick={() => handleOptionSelect(option)}
               >
                 <img src={option.src} className={style.langImage} />
-
                 <div>{option.label}</div>
               </li>
             ))}
