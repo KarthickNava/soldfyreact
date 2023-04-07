@@ -1,0 +1,1102 @@
+{
+  "products": {
+    "total_count": 44,
+    "items": [
+      {
+        "id": 18365,
+        "uid": "MTgzNjU=",
+        "name": "Apple AirPods Pro (2nd generation) 2022",
+        "sku": "APA335",
+        "special_price": 3090,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apa335-apple-airpods-pro-2nd-gen-_2022_.jpeg",
+          "label": "Apple AirPods Pro (2a Gen 2022)-5",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apa335-apple-airpods-pro-2nd-gen-_2022_.jpeg",
+          "label": "Apple AirPods Pro (2a Gen 2022)-5",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apa335-apple-airpods-pro-2nd-gen-_2022_.jpeg",
+          "label": "Apple AirPods Pro (2a Gen 2022)-5",
+          "__typename": "ProductImage"
+        },
+        "url_key": "apple-airpods-pro-2nd-gen-2022",
+        "manufacturer": 5431,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 100,
+        "review_count": 1,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 3290,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 3090,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 3290,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 3090,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "6.08%",
+          "brand": "Apple",
+          "qty_left": "30",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzEzNQ==",
+            "breadcrumbs": [
+              {
+                "category_uid": "OTk5",
+                "category_name": "Tillbehör",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MTcwMw==",
+                "category_name": "Hörlurar",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Apple Hörlurar",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU0MQ==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Singles Day",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 18366,
+        "uid": "MTgzNjY=",
+        "name": "Apple AirPods (3e Gen) med Lightning-laddningsfodral",
+        "sku": "APA336",
+        "special_price": 2384,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apa336-apple-airpods-_3rd-gen_-with-lightning-charging-case.jpeg",
+          "label": "Apple AirPods (3e Gen) med Lightning-laddningsfodral-5",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apa336-apple-airpods-_3rd-gen_-with-lightning-charging-case.jpeg",
+          "label": "Apple AirPods (3e Gen) med Lightning-laddningsfodral-5",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apa336-apple-airpods-_3rd-gen_-with-lightning-charging-case.jpeg",
+          "label": "Apple AirPods (3e Gen) med Lightning-laddningsfodral-5",
+          "__typename": "ProductImage"
+        },
+        "url_key": "apple-airpods-3e-gen-med-lightning-laddningsfodral",
+        "manufacturer": 5431,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 100,
+        "review_count": 2,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 2990,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 2384,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 2990,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 2384,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "20.27%",
+          "brand": "Apple",
+          "qty_left": "20",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzEzNQ==",
+            "breadcrumbs": [
+              {
+                "category_uid": "OTk5",
+                "category_name": "Tillbehör",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MTcwMw==",
+                "category_name": "Hörlurar",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Apple Hörlurar",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU0Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Cyber ​​Monday",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 18073,
+        "uid": "MTgwNzM=",
+        "name": "Nothing Ear (1) True Trådlös Hörlurar - Vit",
+        "sku": "GADGET1444",
+        "special_price": 1099,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1444-nothing-ear-_1_-true-wireless-headset-white.jpeg",
+          "label": "Nothing Ear (1) True Trådlös Hörlurar - Vit",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1444-nothing-ear-_1_-true-wireless-headset-white.jpeg",
+          "label": "Nothing Ear (1) True Trådlös Hörlurar - Vit",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1444-nothing-ear-_1_-true-wireless-headset-white.jpeg",
+          "label": "Nothing Ear (1) True Trådlös Hörlurar - Vit",
+          "__typename": "ProductImage"
+        },
+        "url_key": "nothing-ear-1-true-tradlos-horlurar-vit",
+        "manufacturer": 8304,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 0,
+        "review_count": 0,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 1490,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 1099,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 1490,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 1099,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "26.24%",
+          "brand": "Nothing",
+          "qty_left": "63",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzE5Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "OTk5",
+                "category_name": "Tillbehör",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MTcwMw==",
+                "category_name": "Hörlurar",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "In-Ear Hörlurar",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 16769,
+        "uid": "MTY3Njk=",
+        "name": "Samsung Galaxy Buds Live R180 - Mystic Röd",
+        "sku": "GADGET-1232",
+        "special_price": 849,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget-1232-samsung-galaxy-buds-live-r180-mystic-red.jpeg",
+          "label": "Samsung Galaxy Buds Live R180 - Mystic Röd-1",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget-1232-samsung-galaxy-buds-live-r180-mystic-red.jpeg",
+          "label": "Samsung Galaxy Buds Live R180 - Mystic Röd-1",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget-1232-samsung-galaxy-buds-live-r180-mystic-red.jpeg",
+          "label": "Samsung Galaxy Buds Live R180 - Mystic Röd-1",
+          "__typename": "ProductImage"
+        },
+        "url_key": "samsung-galaxy-buds-live-r180-mystic-rod",
+        "manufacturer": 5432,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 100,
+        "review_count": 2,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 1490,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 849,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 1490,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 849,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "43.02%",
+          "brand": "Samsung",
+          "qty_left": "32",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzE5Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "OTk5",
+                "category_name": "Tillbehör",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MTcwMw==",
+                "category_name": "Hörlurar",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "In-Ear Hörlurar",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 19185,
+        "uid": "MTkxODU=",
+        "name": "SONY MDRRF895RK.EU8 Trådlösa Over-Ear Hörlurar - Svart",
+        "sku": "GADGET1530",
+        "special_price": null,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1530-sony-mdrrf895rk.eu8-wireless-over-ear-headphone-black-3.jpeg",
+          "label": "SONY MDRRF895RK.EU8 Trådlösa Over-Ear Hörlurar - Svart",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1530-sony-mdrrf895rk.eu8-wireless-over-ear-headphone-black-3.jpeg",
+          "label": "SONY MDRRF895RK.EU8 Trådlösa Over-Ear Hörlurar - Svart",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1530-sony-mdrrf895rk.eu8-wireless-over-ear-headphone-black-3.jpeg",
+          "label": "SONY MDRRF895RK.EU8 Trådlösa Over-Ear Hörlurar - Svart",
+          "__typename": "ProductImage"
+        },
+        "url_key": "sony-mdrrf895rk-eu8-tradlosa-over-ear-horlurar-svart",
+        "manufacturer": 5434,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 0,
+        "review_count": 0,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 908,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 908,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 908,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 908,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "",
+          "brand": "Sony",
+          "qty_left": "22",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzE5NQ==",
+            "breadcrumbs": [
+              {
+                "category_uid": "OTk5",
+                "category_name": "Tillbehör",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MTcwMw==",
+                "category_name": "Hörlurar",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Over-Ear Hörlurar",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 18910,
+        "uid": "MTg5MTA=",
+        "name": "Urbanista Los Angeles ANC On ear-hörlurar - Midnight Black",
+        "sku": "GADGET1504",
+        "special_price": 1797,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1504-urbanista-los-angeles-anc-on-ear-headphone-midnight-black.jpeg",
+          "label": "Urbanista Los Angeles ANC On ear-hörlurar - Midnight Black-1",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1504-urbanista-los-angeles-anc-on-ear-headphone-midnight-black.jpeg",
+          "label": "Urbanista Los Angeles ANC On ear-hörlurar - Midnight Black-1",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gadget1504-urbanista-los-angeles-anc-on-ear-headphone-midnight-black.jpeg",
+          "label": "Urbanista Los Angeles ANC On ear-hörlurar - Midnight Black-1",
+          "__typename": "ProductImage"
+        },
+        "url_key": "urbanista-los-angeles-anc-on-ear-horlurar-midnight-black",
+        "manufacturer": 8468,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 100,
+        "review_count": 1,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 1989,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 1797,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 1989,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 1797,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "9.65%",
+          "brand": "Urbanista",
+          "qty_left": "26",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzE5NA==",
+            "breadcrumbs": [
+              {
+                "category_uid": "OTk5",
+                "category_name": "Tillbehör",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MTcwMw==",
+                "category_name": "Hörlurar",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "On-Ear Hörlurar",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 19197,
+        "uid": "MTkxOTc=",
+        "name": "Apple AirPods Max Trådlösa On-Ear Hörlurar - Rosa",
+        "sku": "APAW026",
+        "special_price": null,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apaw026-apple-airpods-max-wireless-on-ear-headphone-pink-1.jpeg",
+          "label": "Apple AirPods Max Trådlösa On-Ear Hörlurar - Rosa",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apaw026-apple-airpods-max-wireless-on-ear-headphone-pink-1.jpeg",
+          "label": "Apple AirPods Max Trådlösa On-Ear Hörlurar - Rosa",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/a/p/apaw026-apple-airpods-max-wireless-on-ear-headphone-pink-1.jpeg",
+          "label": "Apple AirPods Max Trådlösa On-Ear Hörlurar - Rosa",
+          "__typename": "ProductImage"
+        },
+        "url_key": "apple-airpods-max-tradlosa-on-ear-horlurar-rosa",
+        "manufacturer": 5431,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 100,
+        "review_count": 2,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 6988,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 6988,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 6988,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 6988,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "",
+          "brand": "Apple",
+          "qty_left": "3",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzE5NA==",
+            "breadcrumbs": [
+              {
+                "category_uid": "OTk5",
+                "category_name": "Tillbehör",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MTcwMw==",
+                "category_name": "Hörlurar",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "On-Ear Hörlurar",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 18537,
+        "uid": "MTg1Mzc=",
+        "name": "Denver BTH-250 Trådlöst Bluetooth Headset - Röd",
+        "sku": "DENV0083",
+        "special_price": 259,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/d/e/denv0083-denver-bth-250-wireless-bluetooth-headset-red.jpeg",
+          "label": "Denver BTH-250 Trådlöst Bluetooth Headset - Röd",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/d/e/denv0083-denver-bth-250-wireless-bluetooth-headset-red.jpeg",
+          "label": "Denver BTH-250 Trådlöst Bluetooth Headset - Röd",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/d/e/denv0083-denver-bth-250-wireless-bluetooth-headset-red.jpeg",
+          "label": "Denver BTH-250 Trådlöst Bluetooth Headset - Röd",
+          "__typename": "ProductImage"
+        },
+        "url_key": "denver-bth-250-tradlost-bluetooth-headset-rod",
+        "manufacturer": 5707,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 100,
+        "review_count": 1,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 379,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 259,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 379,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 259,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "31.66%",
+          "brand": "Denver",
+          "qty_left": "23",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzE5NA==",
+            "breadcrumbs": [
+              {
+                "category_uid": "OTk5",
+                "category_name": "Tillbehör",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MTcwMw==",
+                "category_name": "Hörlurar",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "On-Ear Hörlurar",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 18715,
+        "uid": "MTg3MTU=",
+        "name": "Sony Playstation 5 Konsol (PS5) + God of War: Ragnarök",
+        "sku": "GAM0045",
+        "special_price": 7289,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gam0045-god-of-war-ragnar_k-for-sony-playstation-5-console-_ps5__1.jpeg",
+          "label": "Sony Playstation 5 Konsol (PS5) + God of War: Ragnarök-12",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gam0045-god-of-war-ragnar_k-for-sony-playstation-5-console-_ps5__1.jpeg",
+          "label": "Sony Playstation 5 Konsol (PS5) + God of War: Ragnarök-12",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/g/a/gam0045-god-of-war-ragnar_k-for-sony-playstation-5-console-_ps5__1.jpeg",
+          "label": "Sony Playstation 5 Konsol (PS5) + God of War: Ragnarök-12",
+          "__typename": "ProductImage"
+        },
+        "url_key": "sony-playstation-5-konsol-ps5-god-of-war-ragnarok",
+        "manufacturer": 5434,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 73,
+        "review_count": 3,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 8169,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 7289,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 8169,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 7289,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "10.77%",
+          "brand": "Sony",
+          "qty_left": "355",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "MjA3NQ==",
+            "breadcrumbs": [
+              {
+                "category_uid": "MjAyOQ==",
+                "category_name": "Gaming",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MjA3MA==",
+                "category_name": "Spelkonsoler",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Sony PlayStation",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      },
+      {
+        "id": 14349,
+        "uid": "MTQzNDk=",
+        "name": "Sony PlayStation 5 (PS5) Disc Edition",
+        "sku": "GAM0001",
+        "special_price": null,
+        "image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/p/l/playstation_5_ps5_disc_edition_gam0001.jpeg",
+          "label": "Sony PlayStation 5 (PS5) Disc Edition0",
+          "__typename": "ProductImage"
+        },
+        "small_image": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/p/l/playstation_5_ps5_disc_edition_gam0001.jpeg",
+          "label": "Sony PlayStation 5 (PS5) Disc Edition0",
+          "__typename": "ProductImage"
+        },
+        "thumbnail": {
+          "url": "https://cdn.soldfy.se/media/catalog/product/cache/12b7c37bf233526d2f24d6b9eca6ef08/p/l/playstation_5_ps5_disc_edition_gam0001.jpeg",
+          "label": "Sony PlayStation 5 (PS5) Disc Edition0",
+          "__typename": "ProductImage"
+        },
+        "url_key": "sony-playstation-5-ps5-disc-edition",
+        "manufacturer": 5434,
+        "stock_status": "IN_STOCK",
+        "type_id": "simple",
+        "rating_summary": 96,
+        "review_count": 9,
+        "price_range": {
+          "minimum_price": {
+            "regular_price": {
+              "value": 7690,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 7690,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "maximum_price": {
+            "regular_price": {
+              "value": 7690,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "final_price": {
+              "value": 7690,
+              "currency": "SEK",
+              "__typename": "Money"
+            },
+            "__typename": "ProductPrice"
+          },
+          "__typename": "PriceRange"
+        },
+        "additionalFields": {
+          "discount": "",
+          "brand": "Sony",
+          "qty_left": "230",
+          "qty_sold_today": 0,
+          "delivery_date": "Sunday, 09 Apr",
+          "delivery_date_max": "Sunday, 09 Apr",
+          "delivery_date_min": "Saturday, 08 Apr",
+          "is_added_to_wishlist": false,
+          "is_delivery_free": false,
+          "__typename": "additionalFields"
+        },
+        "categories": [
+          {
+            "uid": "MjA3NQ==",
+            "breadcrumbs": [
+              {
+                "category_uid": "MjAyOQ==",
+                "category_name": "Gaming",
+                "__typename": "Breadcrumb"
+              },
+              {
+                "category_uid": "MjA3MA==",
+                "category_name": "Spelkonsoler",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Sony PlayStation",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "Mjg1Ng==",
+            "breadcrumbs": null,
+            "name": "Kampanjer",
+            "__typename": "CategoryTree"
+          },
+          {
+            "uid": "MzU1Mw==",
+            "breadcrumbs": [
+              {
+                "category_uid": "Mjg1Ng==",
+                "category_name": "Kampanjer",
+                "__typename": "Breadcrumb"
+              }
+            ],
+            "name": "Påskrea",
+            "__typename": "CategoryTree"
+          }
+        ],
+        "__typename": "SimpleProduct"
+      }
+    ],
+    "__typename": "Products"
+  }
+}
