@@ -8,7 +8,6 @@ import HeaderBand from "./components/HeaderBand/HeaderBand";
 import Header from "./components/Header/Header";
 import Footer from "./pages/Footer/Footer";
 import BackToTopButton from "./hooks/BackToTopButton";
-import Slider from "./components/Slider/Slider";
 import ProductSliderPreview from "./pages/ProductSliderPreview/ProductSliderPreview";
 import CategorySlider from "./components/CategorySlider/CategorySlider";
 import ProductSliderPage from "./pages/ProductSliderPage/ProductSliderPage";

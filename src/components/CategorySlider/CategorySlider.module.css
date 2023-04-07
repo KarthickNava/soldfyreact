@@ -23,4 +23,7 @@
   .slickNext {
     right: 10px;
   }
-  
+  .slick-slide
+  {
+    width: 180px !important;
+  }

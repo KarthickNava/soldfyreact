@@ -49,6 +49,8 @@ function PrevArrow(props) {
   );
 }
 
+
+
 const ProductSlider = () => {
   const settings = {
     dots: false,
@@ -62,7 +64,7 @@ const ProductSlider = () => {
   };
     return (
       
-      <Slider {...settings}>
+      <Slider {...settings} >
 
             <Box><ProductSliderCard needSpace /></Box>
             <Box><ProductSliderCard needSpace /></Box>

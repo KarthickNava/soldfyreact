@@ -79,6 +79,13 @@
     padding-left: 30px;
     padding-top: 45px;
     margin-bottom: 20px;
+    overflow: hidden;
+}
+.proImage
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 .link
 {
