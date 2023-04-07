@@ -4,6 +4,50 @@ import useObjectMap from "../../hooks/useObjectMap";
 import CategorySliderCard from "../CategorySliderCard/CategorySliderCard";
 import { Container, Box } from "../FlexContainer";
 import style from "./CategorySlider.module.css";
+
+
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "URL('https://soldfy.com/rightarrow-ffv.svg') no-repeat",
+        height:'70px',
+        width:'70px',
+        backgroundSize: "cover",
+        zIndex: '1',
+        top: '47px',
+        right:'10px'
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "URL('https://soldfy.com/leftarrow-dKE.svg') no-repeat",
+        height:'70px',
+        width:'70px',
+        backgroundSize: "cover",
+        zIndex: '1',
+        top: '47px',
+        left:'-10px'
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
 const CategorySlider = () => {
   const settings = {
     dots: false,
@@ -12,14 +56,8 @@ const CategorySlider = () => {
     speed: 500,
     slidesToShow: 7,
     slidesToScroll: 1,
-    prevArrow: (
-      <button className={`${style.slickArrow} ${style.slickPrev}`}>
-        Previous
-      </button>
-    ),
-    nextArrow: (
-      <button className={`${style.slickArrow} ${style.slickNext}`}>Next</button>
-    ),
+    prevArrow:<PrevArrow/>,
+    nextArrow: <NextArrow/>
   };
 
   useEffect(() => {
@@ -128,7 +166,7 @@ const CategorySlider = () => {
 
   const mappedData = useObjectMap(iconData?.categorySlider, iconMap);
   const displayIcon = mappedData?.map((item) => (
-    <Box key={item?.url_key}>
+    <Box key={item?.url_key} style={{width:'180px'}}>
       <CategorySliderCard
         src={`${"https://cdn.soldfy.se" + item?.slider_image}`}
         text={item?.name}

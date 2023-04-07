@@ -1,6 +1,8 @@
 .slickSlide {
     text-align: center;
     margin: 0 10px 0 7px;
+    overflow: hidden;
+    border-radius: 15px;
   }
 
   .customDotsClass {
