@@ -12,6 +12,7 @@ import Slider from "./components/Slider/Slider";
 import ProductSliderPreview from "./pages/ProductSliderPreview/ProductSliderPreview";
 import CategorySlider from "./components/CategorySlider/CategorySlider";
 import ProductSliderPage from "./pages/ProductSliderPage/ProductSliderPage";
+import ProductSlider from "./components/ProductSlider/ProductSlider";
 function App() {
   const contentRef = useRef(null);
   return (
@@ -36,9 +37,11 @@ function App() {
                   <CategorySlider/>
                 </Box>
                 <Box className='slidrWrapper'>
-<ProductSliderPage/>
+                    <ProductSliderPage/>
                 </Box>
+                <Box><ProductSlider/></Box>
               </Container>
+              
             </Box>
             <Box className="footer">
               <Container

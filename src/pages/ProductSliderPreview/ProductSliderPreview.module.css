@@ -1,6 +1,8 @@
 .firstBox
 {
     width:58.33333333%;
+    overflow: hidden;
+    border-radius: 5px 18px 25px 20px;
 }
 .secondBox
 {
@@ -14,12 +16,11 @@ padding-left: 15px;
 .iconWrapper{
     height: 15.1rem;
     width: 15.938rem;
-    overflow: hidden;
 }
 .imageWrapper .iconWrapper:nth-child(1),
 .imageWrapper .iconWrapper:nth-child(3)
 {
-    margin-right: 35px;
+    margin-right: 50px;
 }
 .imageWrapper .iconWrapper:nth-child(1)
 {

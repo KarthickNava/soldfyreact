@@ -36,7 +36,8 @@ ul li *{
 }
 .categoryWrapper
 {
-  margin: 71px 0;
+  margin: 100px 0;
+  padding: 0 10px;
 }
 .slidrWrapper
 {

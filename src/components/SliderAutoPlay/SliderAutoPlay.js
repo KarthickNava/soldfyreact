@@ -44,7 +44,7 @@ const SliderAutoPlay = () => {
           alt={item?.title}
           fetchpriority="high"
           width="850"
-          height="510"
+          height="520"
         />
       </div>
     );
