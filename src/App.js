@@ -38,7 +38,6 @@ function App() {
                 <Box className='slidrWrapper'>
                     <ProductSliderPage/>
                 </Box>
-                <Box><ProductSlider/></Box>
               </Container>
               
             </Box>

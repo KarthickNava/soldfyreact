@@ -4,11 +4,13 @@ import ProductSliderCard from "../../components/ProductSliderCard/ProductSliderC
 import Button from "../../components/Button/Button";
 import Heading from "../../components/Heading/Heading";
 import ArrowIcon from "./ArrowIcon";
+import ProductSlider from "../../components/ProductSlider/ProductSlider";
 import style from "./ProductSliderPage.module.css";
 const ProductSliderPage = () => {
   return (
-
-        <Container alignBox="row" align="vertical" className={style.headBox}>
+    <Container alignBox='column' isCover={false}>
+      <Box className={style.headBox}>
+      <Container alignBox="row" align="vertical" >
           <Heading tagName="h2" title="Påskrea" className={style.head} />
           <Button customClass={style.button}>
             <span>Visa Allt</span>
@@ -22,6 +24,13 @@ const ProductSliderPage = () => {
             </i>
           </Button>
         </Container>
+      </Box>
+      <Box>
+        <ProductSlider/>
+      </Box>
+    </Container>
+
+
   );
 };
 

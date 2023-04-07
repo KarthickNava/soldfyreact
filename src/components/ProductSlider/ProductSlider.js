@@ -3,13 +3,13 @@ import Slider from "react-slick";
 import useObjectMap from "../../hooks/useObjectMap";
 import { Container, Box } from "../FlexContainer";
 import ProductSliderCard from "../ProductSliderCard/ProductSliderCard";
-import style from "./ProductSlider.module.css";
+import "./ProductSlider.css";
 import ProductCartData from "../../JsonData/productCartData.json";
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
+      className={`${className && className} ${'slick-next'}`}
       style={{
         ...style,
         display: "block",
@@ -20,7 +20,8 @@ function NextArrow(props) {
         zIndex: "1",
         top: "50%",
         transform: " translateY(-50%)",
-        right: "10px",
+        right: "20px",
+      
       }}
       onClick={onClick}
     />
@@ -31,7 +32,7 @@ function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
+       className={`${className && className} ${'slick-prev'}`}
       style={{
         ...style,
         display: "block",
@@ -104,7 +105,7 @@ const ProductSlider = () => {
 
   const mappedData = useObjectMap(ProductCartData?.products?.items, iconMap);
   const displayIcon = mappedData?.map((item) => (
-    <Box key={item?.url_key} style={{ width: "180px" }}>
+    <div key={item?.url_key} style={{ display:'flex' }}>
       <ProductSliderCard
         productimageSrc={item?.displaySrc}
         productimageAlt={item?.displayProductText}
@@ -119,9 +120,11 @@ const ProductSlider = () => {
         DateText={item?.displayDateText}
         needSpace={false}
       />
-    </Box>
+    </div>
   ));
-  return <Slider {...settings}>{displayIcon}</Slider>;
+  return <Slider {...settings}>
+    {displayIcon}
+  </Slider>;
 };
 
 export default ProductSlider;

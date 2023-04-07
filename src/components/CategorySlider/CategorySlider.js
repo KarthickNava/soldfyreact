@@ -3,14 +3,14 @@ import Slider from "react-slick";
 import useObjectMap from "../../hooks/useObjectMap";
 import CategorySliderCard from "../CategorySliderCard/CategorySliderCard";
 import { Container, Box } from "../FlexContainer";
-import style from "./CategorySlider.module.css";
+import "./CategorySlider.css";
 
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
+    className={`${className && className} ${'slick-next'}`}
       style={{
         ...style,
         display: "block",
@@ -31,7 +31,7 @@ function PrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
+    className={`${className && className} ${'slick-prev'}`}
       style={{
         ...style,
         display: "block",

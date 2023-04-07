@@ -27,6 +27,7 @@ const ProductSliderCard = (props) => {
     needSpace,
   } = props;
   return (
+    <div className={style.scale}>
     <Container
       className={`${style.Container} ${needSpace ? style.space : ""}`}
       alignBox="column"
@@ -129,7 +130,8 @@ const ProductSliderCard = (props) => {
           </Box>
         </Container>
       </Box>
-    </Container>
+      </Container>
+      </div>
   );
 };
 

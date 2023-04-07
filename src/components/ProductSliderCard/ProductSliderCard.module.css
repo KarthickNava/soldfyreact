@@ -1,11 +1,15 @@
 .Container {
-  width: 360px;
   padding: var(--size15);
   background-color: var(--white-pure);
   height: auto;
-  padding: 15px;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin-right: var(--size30);
   position: relative;
+  transition: all .3s;
+}
+.scale > .Container:hover{
+  transform: scale(1.01);
+  border-radius: 10px;
 }
 .tagone {
   position: absolute;
@@ -68,7 +72,7 @@
 .image {
   height: 300px;
   width: 300px;
-  padding-left: 30px;
+  padding-left: 10px;
   padding-top: 45px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -86,6 +90,9 @@
   color: #000;
   word-wrap: break-word;
   margin: 2px 0;
+}
+.link:hover{
+  color: #0a58ca;
 }
 
 .button {
