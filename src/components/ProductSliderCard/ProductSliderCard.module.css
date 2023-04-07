@@ -1,189 +1,166 @@
-.Container
-{
-    width: 360px;
-    padding: var(--size15);
-    background-color:var(--white-pure);
-    height: auto;
-    padding: 15px;
-    border-radius: 5px;
-    position: relative;
+.Container {
+  width: 360px;
+  padding: var(--size15);
+  background-color: var(--white-pure);
+  height: auto;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
 }
-.tagone
-{
-    position: absolute;
-    background: #a50303;
-    color: #fff;
-    font-size: var(--size16);
-    left: 0;
-    padding: 4px 15px;
-    z-index: 1;
-    top: 15px;
+.tagone {
+  position: absolute;
+  background: #a50303;
+  color: #fff;
+  font-size: var(--size16);
+  left: 0;
+  padding: 4px 15px;
+  z-index: 1;
+  top: 15px;
 }
-.tagone::after{
-    content: '';
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 0;
-    right: -1px;
-    border-top: 14px solid transparent;
-    border-bottom: 13px solid transparent;
-    border-right: 12px solid #fff;
+.tagone::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  border-top: 14px solid transparent;
+  border-bottom: 13px solid transparent;
+  border-right: 12px solid #fff;
 }
-.tagtwo
-{
-    position: absolute;
-    background: #5dc8bd;
-    color: #fff;
-    font-size: 16px;
-    left: 0;
-    padding: 4px 15px;
-    z-index: 1;
-    top: 45px;
+.tagtwo {
+  position: absolute;
+  background: #5dc8bd;
+  color: #fff;
+  font-size: 16px;
+  left: 0;
+  padding: 4px 15px;
+  z-index: 1;
+  top: 45px;
 }
-.tagtwo::before{
-
-    content: "";
-    position: absolute;
-    right: -17px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 17.8px solid #5dc8bd;
-    border-top: 13px solid transparent;
-    border-bottom: 13px solid transparent;
-
+.tagtwo::before {
+  content: "";
+  position: absolute;
+  right: -17px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 17.8px solid #5dc8bd;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
 }
-.rating
-{
-    width: 42px;
-    height: 42px;
-    background-color: #fc362b;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    color: #fff;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    position: absolute;
-    top: 15px;
-    right: 15px;
+.rating {
+  width: 42px;
+  height: 42px;
+  background-color: #fc362b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
-.image
-{
-
-    height: 300px;
-    width: 300px;
-    padding-left: 30px;
-    padding-top: 45px;
-    margin-bottom: 20px;
-    overflow: hidden;
+.image {
+  height: 300px;
+  width: 300px;
+  padding-left: 30px;
+  padding-top: 45px;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
-.proImage
-{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+.proImage {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
-.link
-{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    color: #000;
-    word-wrap: break-word;
-    margin: 2px 0;
+.link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000;
+  word-wrap: break-word;
+  margin: 2px 0;
 }
 
-.button
-{
-    display: flex;
-    align-items: center;
-    font-size: var(--size20);
-    font-weight: 400;
-    padding: 5px 20px;
+.button {
+  display: flex;
+  align-items: center;
+  font-size: var(--size20);
+  font-weight: 400;
+  padding: 5px 20px;
 }
 
-.svg
-{
-    padding-left: 10px;
+.svg {
+  padding-left: 10px;
 }
 
 .button:hover,
 .button:focus {
-    background-color: var(--commonBand-Bg);
-    color: var(--white-pure);
+  background-color: var(--commonBand-Bg);
+  color: var(--white-pure);
 }
 .button:hover .cart,
 .button:focus .cart {
-    fill:#fff;
+  fill: #fff;
 }
-.cart{
-    background-image: url(https://soldfy.com/cartmain-m31.svg);
-    background-repeat: no-repeat;
-    background-position: 0 center;
-    background-size: 25px;
-    padding-left: 26px;
-    transition: background-image .2s;
-    color: #000;
+.cart {
+  background-image: url(https://soldfy.com/cartmain-m31.svg);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 25px;
+  padding-left: 26px;
+  transition: background-image 0.2s;
+  color: #000;
 }
-.updatetxt{
-    font-size: 14px;
-    color: #333;
-    max-width: 65%;
-    word-wrap: break-word;
-    margin-left: 5px;
+.updatetxt {
+  font-size: 14px;
+  color: #333;
+  max-width: 65%;
+  word-wrap: break-word;
+  margin-left: 5px;
 }
-.space
-{
-    margin: 0 2px;
+.space {
+  margin: 0 2px;
 }
-.reContanier
-{
-    cursor: pointer;
+.reContanier {
+  cursor: pointer;
 }
-.suffle
-{
-    padding-right: 5px;
+.suffle {
+  padding-right: 5px;
 }
-.stockyes
-{
-    width: 20px;
-    height: 20px;
-    padding-right: 5px;
+.stockyes {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
 }
-.stockyesBox
-{
-    padding-right: 20px;
+.stockyesBox {
+  padding-right: 20px;
 }
-.bottom
-{
-    margin-top: 40px;
+.bottom {
+  margin-top: 40px;
 }
-.priceHide
-{
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    color: #7f7f7f;
-    text-decoration: line-through;
-
+.priceHide {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7f7f7f;
+  text-decoration: line-through;
 }
-.specialPrice
-{
-    color: #fa0202;
-    font-family: 'Segoe UI';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 23px;
+.specialPrice {
+  color: #fa0202;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 23px;
 }
-.space
-{
-    margin-right: 30px;
+.space {
+  margin-right: 30px;
 }

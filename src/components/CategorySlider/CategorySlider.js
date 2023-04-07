@@ -63,8 +63,8 @@ const CategorySlider = () => {
   useEffect(() => {
     fetch(
       `${
-        // window.location.origin +
-        "https://test-react.soldfy.se/graphql?query=query+getCategory%7BcategorySlider%7Bname+slider_image+url_key+url_path+__typename%7D%7D&operationName=getCategory&variables=%7B%7D"
+        window.location.origin +
+        "/graphql?query=query+getCategory%7BcategorySlider%7Bname+slider_image+url_key+url_path+__typename%7D%7D&operationName=getCategory&variables=%7B%7D"
       }`,
       {
         method: "GET",
@@ -72,6 +72,17 @@ const CategorySlider = () => {
           "Content-Type": "application/json",
           store: "soldfy_se",
         },
+        // body: JSON.stringify({
+        //   operationName: "getCategory",
+        //   query: `query getCategory {
+        //     categorySlider {
+        //         name
+        //         slider_image
+        //         url_key
+        //         url_path
+        //     }
+        // }`,
+        // }),
       }
     )
       .then((res) => res.json())
@@ -160,17 +171,18 @@ const CategorySlider = () => {
   };
   const iconMap = (item) => ({
     ...item,
-    displaySrc: item.src,
-    displaytext: item.text,
+    displaySrc: `${"https://cdn.soldfy.se" + item?.slider_image}`,
+    displaytext: item?.name,
+    displayAlt: item?.name,
   });
 
   const mappedData = useObjectMap(iconData?.categorySlider, iconMap);
   const displayIcon = mappedData?.map((item) => (
     <Box key={item?.url_key} style={{width:'180px'}}>
       <CategorySliderCard
-        src={`${"https://cdn.soldfy.se" + item?.slider_image}`}
-        text={item?.name}
-        alt={item?.name}
+        src={item?.displaySrc}
+        text={item?.displaytext}
+        alt={item?.displayAlt}
         tagName="h3"
       />
     </Box>

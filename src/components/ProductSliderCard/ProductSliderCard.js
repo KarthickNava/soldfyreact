@@ -23,19 +23,24 @@ const ProductSliderCard = (props) => {
     ratingCount,
     soldtext,
     DateText,
-    needSpace
+    discount,
+    needSpace,
   } = props;
   return (
-    <Container className={`${style.Container} ${needSpace ? style.space:""}`} alignBox="column" isCover={false}>
+    <Container
+      className={`${style.Container} ${needSpace ? style.space : ""}`}
+      alignBox="column"
+      isCover={false}
+    >
       <span className={style.tagone}>Påskrea</span>
       <span className={style.tagtwo}>Försäljning</span>
-      <span className={style.rating}>6%</span>
+      <span className={style.rating}>{discount}</span>
       <Box className={style.image}>
         <Container align="both">
           <Image
             src={productimageSrc}
             alt={productimageAlt}
-            className={imageClass}
+            className={`${imageClass} ${style.proImage}`}
           />
         </Container>
       </Box>
@@ -76,7 +81,10 @@ const ProductSliderCard = (props) => {
           </Box>
           <Box className={style.space}>
             <Container align="vertical" alignBox="row">
-              <Image src="https://soldfy.com/Vector-hot-tuB.svg" alt='vectot-hot'/>
+              <Image
+                src="https://soldfy.com/Vector-hot-tuB.svg"
+                alt="vectot-hot"
+              />
               <span className={style.updatetxt}>{soldtext}</span>
             </Container>
           </Box>
@@ -84,13 +92,19 @@ const ProductSliderCard = (props) => {
             <Container align="vertical" alignBox="row">
               <Box flexible>
                 <Container align="vertical" alignBox="row">
-                  <Image src="	https://soldfy.com/Vector-del-9QV.svg" alt='vector'/>
+                  <Image
+                    src="	https://soldfy.com/Vector-del-9QV.svg"
+                    alt="vector"
+                  />
                   <span className={style.updatetxt}>{DateText}</span>
                 </Container>
               </Box>
               <Box className={style.reContanier}>
                 <span className={style.suffle}>
-                  <Image src="https://soldfy.com/shuffle-55s.svg" alt="shuffle" />
+                  <Image
+                    src="https://soldfy.com/shuffle-55s.svg"
+                    alt="shuffle"
+                  />
                 </span>
                 <span>
                   <HeartSvg />
@@ -120,17 +134,17 @@ const ProductSliderCard = (props) => {
 };
 
 ProductSliderCard.defaultProps = {
-  productimageSrc:
-    "https://cdn.soldfy.com/media/catalog/product/cache/cb1ade73e5419e241f9fbeab0570842b/a/p/apa270-apple-airpods-pro-with-magsafe-case-_2021__1.jpeg",
-  productimageAlt: "product",
-  productText: "Apple",
-  productLeftedtext: "30 + Left",
-  OfferStrikeText: "€299.00",
-  PriceText: "€149.00",
-  DiscriptionText: "Apple AirPods Pro with Magsafe Case (2021)",
-  ratingCount: "0",
-  soldtext: "0  Sold Today",
-  DateText: "Wednesday, 12 Apr to Wednesday, 12 Apr",
-  needSpace:false
+  // productimageSrc:
+  //   "https://cdn.soldfy.com/media/catalog/product/cache/cb1ade73e5419e241f9fbeab0570842b/a/p/apa270-apple-airpods-pro-with-magsafe-case-_2021__1.jpeg",
+  // productimageAlt: "product",
+  // productText: "Apple",
+  // productLeftedtext: "30 + Left",
+  // OfferStrikeText: "€299.00",
+  // PriceText: "€149.00",
+  // DiscriptionText: "Apple AirPods Pro with Magsafe Case (2021)",
+  // ratingCount: "0",
+  // soldtext: "0  Sold Today",
+  // DateText: "Wednesday, 12 Apr to Wednesday, 12 Apr",
+  // needSpace:false
 };
 export default ProductSliderCard;
