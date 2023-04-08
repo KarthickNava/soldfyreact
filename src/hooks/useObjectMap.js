@@ -1,13 +1,14 @@
-import { useState, useEffect } from 'react';
+import React from "react";
 
 function useObjectMap(data, mapFn) {
-  const [mappedData, setMappedData] = useState([]);
+  return data?.map(mapFn);
+  // const [mappedData, setMappedData] = useState([]);
 
-  useEffect(() => {
-    setMappedData(data.map(mapFn));
-  }, [data, mapFn]);
+  // useEffect(() => {
+  //   setMappedData(data.map(mapFn));
+  // }, [data, mapFn]);
 
-  return mappedData;
+  // return mappedData;
 }
 
 export default useObjectMap;
