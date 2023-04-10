@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Segoe+UI&display=swap');
 .Container {
   padding: var(--size15);
   background-color: var(--white-pure);
@@ -90,6 +91,7 @@
   color: #000;
   word-wrap: break-word;
   margin: 2px 0;
+  font-family: 'Segoe UI', sans-serif !important;
 }
 .link:hover{
   color: #0a58ca;
@@ -128,7 +130,7 @@
 .updatetxt {
   font-size: 14px;
   color: #333;
-  max-width: 65%;
+  max-width: 70%;
   word-wrap: break-word;
   margin-left: 5px;
 }
@@ -168,6 +170,12 @@
   font-size: 24px;
   line-height: 23px;
 }
-.space {
-  margin-right: 30px;
+
+.ratingBox
+{
+  padding: 2px 0;
+  display: flex;
+}
+.ratingtxt{
+  padding-left: 2px;
 }

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Segoe+UI&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', sans-serif !important;
+}
 .App {
   height: 100vh;
   width: 100%;
@@ -6,6 +11,7 @@
 
 body, html {
   text-size-adjust: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 body *{
 

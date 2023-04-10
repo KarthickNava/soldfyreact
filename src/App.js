@@ -36,7 +36,13 @@ function App() {
                   <CategorySlider/>
                 </Box>
                 <Box className='slidrWrapper'>
-                    <ProductSliderPage/>
+                    <ProductSliderPage title='Popular Products'/>
+                </Box>
+                <Box className='slidrWrapper'>
+                    <ProductSliderPage title='New Arrivals'/>
+                </Box>
+                <Box className='slidrWrapper'>
+                    <ProductSliderPage title='UpComing Arrivals'/>
                 </Box>
               </Container>
               
