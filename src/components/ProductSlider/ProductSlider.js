@@ -20,7 +20,7 @@ function NextArrow(props) {
         zIndex: "1",
         top: "50%",
         transform: " translateY(-50%)",
-        right: "20px",
+        right: "0",
       
       }}
       onClick={onClick}
@@ -118,7 +118,7 @@ const ProductSlider = () => {
         soldtext={item?.displaySoldyToday}
         discount={`${item?.displayDiscount}%`}
         DateText={item?.displayDateText}
-        needSpace={false}
+        needSpace
       />
     </div>
   ));

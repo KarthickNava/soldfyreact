@@ -1,17 +1,14 @@
 import React from "react";
 import { Container, Box } from "../../components/FlexContainer";
-import ProductSliderCard from "../../components/ProductSliderCard/ProductSliderCard";
 import Button from "../../components/Button/Button";
 import Heading from "../../components/Heading/Heading";
-import ArrowIcon from "./ArrowIcon";
-import ProductSlider from "../../components/ProductSlider/ProductSlider";
-import style from "./ProductSliderPage.module.css";
-const ProductSliderPage = (props) => {
+import ArrowIcon from "../ProductSliderPage/ArrowIcon";
+import style from "../ProductSliderPage/ProductSliderPage.module.css";
+const HeaderCommon = (props) => {
   const { title } = props;
+  
   return (
-    <Container alignBox='column' isCover={false}>
-      <Box className={style.headBox}>
-      <Container alignBox="row" align="vertical" >
+    <Container alignBox='row' align='vertical' isCover={false} className={style.headBox}>
           <Heading tagName="h2" title={title} className={style.head} />
           <Button customClass={style.button}>
             <span>See All</span>
@@ -24,15 +21,10 @@ const ProductSliderPage = (props) => {
               />
             </i>
           </Button>
-        </Container>
-      </Box>
-      <Box>
-        <ProductSlider/>
-      </Box>
     </Container>
 
 
   );
 };
 
-export default ProductSliderPage;
+export default HeaderCommon;

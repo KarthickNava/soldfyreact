@@ -1,0 +1,57 @@
+{
+    "data": {
+        "ambrandslider": {
+            "items": [
+                {
+                    "label": "Samsung",
+                    "url": "brands/samsung",
+                    "img": "https://cdn.soldfy.com/media/amasty/shopby/option_images/slider/Samsung_copy_1.png",
+                    "position": "0",
+                    "alt": "Samsung",
+                    "__typename": "BrandForSlider"
+                },
+                {
+                    "label": "Huawei",
+                    "url": "brands/huawei",
+                    "img": "https://cdn.soldfy.com/media/amasty/shopby/option_images/slider/Huawei_copy_1.png",
+                    "position": "0",
+                    "alt": "Huawei",
+                    "__typename": "BrandForSlider"
+                },
+                {
+                    "label": "Sony",
+                    "url": "brands/sony",
+                    "img": "https://cdn.soldfy.com/media/amasty/shopby/option_images/slider/Sony_logo_copy_1.png",
+                    "position": "0",
+                    "alt": "Sony",
+                    "__typename": "BrandForSlider"
+                },
+                {
+                    "label": "Xiaomi",
+                    "url": "brands/xiaomi",
+                    "img": "https://cdn.soldfy.com/media/amasty/shopby/option_images/slider/Xiaomi_1.png",
+                    "position": "0",
+                    "alt": "Xiaomi",
+                    "__typename": "BrandForSlider"
+                },
+                {
+                    "label": "OnePlus",
+                    "url": "brands/oneplus",
+                    "img": "https://cdn.soldfy.com/media/amasty/shopby/option_images/slider/OnePlus_copy_1.png",
+                    "position": "0",
+                    "alt": "OnePlus",
+                    "__typename": "BrandForSlider"
+                },
+                {
+                    "label": "RETAL",
+                    "url": "brands/retal",
+                    "img": "https://cdn.soldfy.com/media/amasty/shopby/option_images/slider/retal-logo.png",
+                    "position": "0",
+                    "alt": "RETAL",
+                    "__typename": "BrandForSlider"
+                }
+            ],
+            "__typename": "BrandSlider"
+        }
+    }
+}

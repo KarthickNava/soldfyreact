@@ -4,9 +4,13 @@
   background-color: var(--white-pure);
   height: auto;
   border-radius: 10px;
-  margin-right: var(--size30);
   position: relative;
   transition: all .3s;
+}
+.Cardspace
+{
+
+  margin-right: var(--size30);
 }
 .scale > .Container:hover{
   transform: scale(1.01);
@@ -74,8 +78,8 @@
   height: 300px;
   width: 300px;
   padding-left: 10px;
-  padding-top: 45px;
-  margin-bottom: 20px;
+  padding-top: 75px;
+  margin-bottom: 40px;
   overflow: hidden;
 }
 .proImage {
@@ -90,7 +94,7 @@
   line-height: 27px;
   color: #000;
   word-wrap: break-word;
-  margin: 2px 0;
+  margin: 10px 0;
   font-family: 'Segoe UI', sans-serif !important;
 }
 .link:hover{
@@ -114,23 +118,21 @@
   background-color: var(--commonBand-Bg);
   color: var(--white-pure);
 }
+.cart {
+  padding-left: 26px;
+  fill: #000 !important;
+  stroke: #000 !important;
+}
 .button:hover .cart,
 .button:focus .cart {
-  fill: #fff;
+  fill: #fff !important;
+  stroke: #fff !important;
 }
-.cart {
-  background-image: url(https://soldfy.com/cartmain-m31.svg);
-  background-repeat: no-repeat;
-  background-position: 0 center;
-  background-size: 25px;
-  padding-left: 26px;
-  transition: background-image 0.2s;
-  color: #000;
-}
+
 .updatetxt {
   font-size: 14px;
   color: #333;
-  max-width: 70%;
+  max-width: 75%;
   word-wrap: break-word;
   margin-left: 5px;
 }
@@ -152,7 +154,7 @@
   padding-right: 20px;
 }
 .bottom {
-  margin-top: 40px;
+  margin-top: 70px;
 }
 .priceHide {
   font-style: normal;

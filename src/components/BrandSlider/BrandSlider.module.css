@@ -1,0 +1,22 @@
+.wrapper
+{
+    border: 1px solid #a9a9a9;
+    padding: 30px 15px;
+    border-radius: 15px;
+    margin-right: 25px;
+    max-width: 210px;
+}
+.wrapper:last-child{
+    margin-right: 0 ;
+}
+.img
+{
+    max-width: 175px;
+    width: 175px;
+}
+.link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

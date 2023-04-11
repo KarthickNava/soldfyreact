@@ -27,9 +27,9 @@ const ProductSliderCard = (props) => {
     needSpace,
   } = props;
   return (
-    <div className={style.scale}>
+    <div className={`${style.scale} ${needSpace ? style.Cardspace : ""}`}>
       <Container
-        className={`${style.Container} ${needSpace ? style.space : ""}`}
+        className={`${style.Container}`}
         alignBox="column"
         isCover={false}
       >
@@ -80,7 +80,7 @@ const ProductSliderCard = (props) => {
               ></Image>
               <span className={style.ratingtxt}>{ratingCount}</span>
             </Box>
-            <Box className={style.space}>
+            <Box className={style.Card}>
               <Container align="vertical" alignBox="row">
                 <Image
                   src="https://soldfy.com/Vector-hot-tuB.svg"
@@ -124,7 +124,7 @@ const ProductSliderCard = (props) => {
                 </Box>
                 <Box>
                   <Button customClass={style.button}>
-                    <span className={style.cart}></span>
+                      <CartSvg className={style.cart} />
                     <span>Add</span>
                   </Button>
                 </Box>
@@ -138,17 +138,7 @@ const ProductSliderCard = (props) => {
 };
 
 ProductSliderCard.defaultProps = {
-  // productimageSrc:
-  //   "https://cdn.soldfy.com/media/catalog/product/cache/cb1ade73e5419e241f9fbeab0570842b/a/p/apa270-apple-airpods-pro-with-magsafe-case-_2021__1.jpeg",
-  // productimageAlt: "product",
-  // productText: "Apple",
-  // productLeftedtext: "30 + Left",
-  // OfferStrikeText: "€299.00",
-  // PriceText: "€149.00",
-  // DiscriptionText: "Apple AirPods Pro with Magsafe Case (2021)",
-  // ratingCount: "0",
-  // soldtext: "0  Sold Today",
-  // DateText: "Wednesday, 12 Apr to Wednesday, 12 Apr",
-  // needSpace:false
+
+  needSpace:true
 };
 export default ProductSliderCard;

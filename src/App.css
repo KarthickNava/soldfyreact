@@ -42,14 +42,23 @@ ul li *{
 }
 .categoryWrapper
 {
-  margin: 100px 0;
+  margin: 100px 0 60px;
   padding: 0 10px;
 }
 .slidrWrapper
 {
-  margin-bottom: 40px;
+  margin-bottom: 76px;
 }
 .commonContainer
 {
   background-color: #f3f5f6;
+}
+.secondBoxWrapper
+{
+    margin-top: 20px;
+}
+.brandSlider
+{
+  text-align: center;
+  padding-left: 10px;
 }

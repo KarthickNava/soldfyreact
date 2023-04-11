@@ -20,7 +20,7 @@ function NextArrow(props) {
         backgroundSize: "cover",
         zIndex: '1',
         top: '47px',
-        right:'10px'
+        right:'-20px'
       }}
       onClick={onClick}
     />
@@ -54,7 +54,7 @@ const CategorySlider = () => {
     lazyLoad: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 7,
+    slidesToShow: 8,
     slidesToScroll: 1,
     prevArrow:<PrevArrow/>,
     nextArrow: <NextArrow/>
